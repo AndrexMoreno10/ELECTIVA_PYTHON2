@@ -2,11 +2,11 @@ from fastapi import FastAPI
 from starlette.responses import RedirectResponse
 
 #Routers
-from .routes.user import users_route
-from .routes.animal import animals_route
-from .routes.vehicle import vehicles_route
-from .routes.product import products_route
-from .routes.venta import ventas_route
+from routes.user import users_route
+from routes.animal import animals_route
+from routes.vehicle import vehicles_route
+from routes.product import products_route
+from routes.venta import ventas_route
 
 
 app = FastAPI()
